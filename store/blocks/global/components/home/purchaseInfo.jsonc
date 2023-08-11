@@ -1,0 +1,60 @@
+{
+    "image#assistance": {
+        "title": "Assistance Image",
+        "props": {
+            "src": "assets/pdp/pizza1.jpg",
+            "alt": "assistance",
+            "blockClass": "assistance"
+        }
+    },
+    "rich-text#assistance__title": {
+        "title": "Title",
+        "props": {
+            "text": "Pizzas italianas",
+            "blockClass": "assistance__title"
+        }
+    },
+    "rich-text#assistance__description": {
+        "title": "Description",
+        "props": {
+            "text": "Pizzas artesanales",
+            "blockClass": "assistance__description"
+        }
+    },
+    "rich-text#shipping__title": {
+        "title": "Title",
+        "props": {
+            "text": "Delivery 24 horas",
+            "blockClass": "shipping__title"
+        }
+    },
+    "rich-text#shipping__description": {
+        "title": "Description",
+        "props": {
+            "text": "Pizzas artesanales",
+            "blockClass": "shipping__description"
+        }
+    },
+    "image#simpleReturn": {
+        "title": "SimpleReturn Image",
+        "props": {
+            "src": "assets/pdp/pizza3.jpg",
+            "alt": "simple Return",
+            "blockClass": "simpleReturn"
+        }
+    },
+    "rich-text#simpleReturn__title": {
+        "title": "Title",
+        "props": {
+            "text": "Pizzas artesanales",
+            "blockClass": "simpleReturn__title"
+        }
+    },
+    "rich-text#simpleReturn__description": {
+        "title": "Description",
+        "props": {
+            "text": "Pizzas artesanales",
+            "blockClass": "simpleReturn__description"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#product-breadcrumb--mobile": {
+        "children": [
+            "breadcrumb#pdp"
+        ],
+        "props": {
+            "marginTop": 18,
+            "blockClass": "product-breadcrumb--mobile"
+        }
+    },
+    "flex-layout.row#purchaseInfo__section--phone": {
+        "children": [
+            "flex-layout.col#purchaseInfo__section--phone"
+        ],
+        "props": {
+            "blockClass": "purchaseInfo__section--phone"
+        }
+    },
+    "flex-layout.col#purchaseInfo__section--phone": {
+        "children": [
+            "slider-layout#purchaseInfo__section--mobile"
+        ],
+        "props": {
+            "blockClass": "Col-purchaseInfo__section--phone"
+        }
+    },
+    "slider-layout#purchaseInfo__section--mobile": {
+        "children": [
+            "flex-layout.col#assistance",
+            "flex-layout.col#shipping",
+            "flex-layout.col#simpleReturn"
+        ],
+        "props": {
+            "showNavigationArrows": "never",
+            "infinite": true,
+            "fullWidth": true,
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "blockClass": "purchaseInfo__section--mobile"
+        }
+    }
+}
