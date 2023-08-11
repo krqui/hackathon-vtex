@@ -1,0 +1,19 @@
+{
+    "product-images#images__pdp--mobile": {
+        "props": {
+            "blockClass": "images__pdp--mobile"
+        }
+    },
+    "product-images#images__pdp--desktop": {
+        "props": {
+            "blockClass": "images__pdp--desktop",
+            "showNavigationArrows": false,
+            "showPaginationDots": false
+        }
+    },
+    "product-description#productDescription__pdp": {
+        "props": {
+            "blockClass": "productDescription__pdp"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "flex-layout.col#assistance": {
+        "title": "Assistance",
+        "children": [
+            "image#assistance",
+            "flex-layout.col#assistance__titleAndDescription--mobile"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "assistance"
+        }
+    },
+    "flex-layout.col#assistance__titleAndDescription--mobile": {
+        "children": [
+            "rich-text#assistance__title",
+            "rich-text#assistance__description"
+        ]
+    },
+    "flex-layout.col#shipping": {
+        "title": "Shipping",
+        "children": [
+            "image#shipping",
+            "flex-layout.col#shipping__titleAndDescription--mobile"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "shipping"
+        }
+    },
+    "image#shipping": {
+        "title": "Shipping Image",
+        "props": {
+            "src": "assets/pdp/pizza3.jpg",
+            "alt": "shipping",
+            "blockClass": "shipping"
+        }
+    },
+    "flex-layout.col#shipping__titleAndDescription--mobile": {
+        "children": [
+            "rich-text#shipping__title",
+            "rich-text#shipping__description"
+        ]
+    },
+    "flex-layout.col#simpleReturn": {
+        "title": "SimpleReturn",
+        "children": [
+            "image#simpleReturn",
+            "flex-layout.col#simpleReturn__titleAndDescription--mobile"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "simpleReturn"
+        }
+    },
+    "flex-layout.col#simpleReturn__titleAndDescription--mobile": {
+        "children": [
+            "rich-text#simpleReturn__title",
+            "rich-text#simpleReturn__description"
+        ]
+    }
+}

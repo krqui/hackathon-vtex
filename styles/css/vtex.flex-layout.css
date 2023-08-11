@@ -1,0 +1,14 @@
+
+@media screen and (min-width:1026px) {
+    .flexRowContent--productImageDescriptionAndProductInfoPDP__container--desktop {
+        margin-inline: auto;
+        width: 920px !important;
+    }
+    .flexColChild--productInfoPDP__section--desktop {
+        width: 480px;
+    }
+    .flexCol--probemos,
+    .flexColChild--probemos {
+        width: 370px !important;
+    }
+}

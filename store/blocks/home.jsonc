@@ -1,12 +1,14 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text#prueba"
+      "rich-text#prueba",
+      "flex-layout.row#purchaseInfo__section--phone",
+      "flex-layout.row#global__home"
     ]
   },
   "rich-text#prueba": { 
     "props": { 
-      "text": "VTEX Store Framework PRUEBA PRUEBA",
+      "text": "Pizzería 'Nonno Mozzarello'",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"

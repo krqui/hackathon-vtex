@@ -1,0 +1,10 @@
+
+@media screen and (min-width:1026px){
+    .productImage--images__pdp--desktop {
+        width: 480px;
+    }
+    .productImageTag--images__pdp--desktop {
+        width: 480px !important;
+    } 
+}
+
