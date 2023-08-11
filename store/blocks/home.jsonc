@@ -1,12 +1,12 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text#prueba"
     ]
   },
-  "rich-text": { 
+  "rich-text#prueba": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "VTEX Store Framework PRUEBA PRUEBA",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
