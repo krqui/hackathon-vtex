@@ -1,7 +1,35 @@
 {
   "store.product": {
     "children": [
-      
+      "responsive-layout.desktop#pdp",
+      "product-assembly-options"
+    ],
+    "props":{
+      "initiallyOpened": "always"
+     }
+  },
+  "responsive-layout.desktop#pdp": {
+    "title": "Home Desktop",
+    "children": [
+      "flex-layout.row#product-breadcrumb--desktop"/*,
+      "flex-layout.row#productImageDescriptionAndProductInfoPDP__container--desktop",
+      "flex-layout.row#reviews-and-ratings__pdp",
+      "flex-layout.row#purchaseInfo__section--desktop-pdp",
+      "flex-layout.row#container-relatedProducts__pdp"*/
     ]
+  },
+  "flex-layout.row#product-breadcrumb--desktop": {
+    "children": ["breadcrumb#pdp"],
+    "props": {
+      "marginTop": 18,
+      "blockClass": "product-breadcrumb--desktop"
+    }
+  },
+  "breadcrumb#pdp": {
+    "props": {
+      "showOnMobile": true,
+      "blockClass": "pdp"
+    }
   }
+  
 }
